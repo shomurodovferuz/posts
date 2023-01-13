@@ -278,7 +278,18 @@ main .container{
 }
 .featured_item{
     width: 45%;
+    
+    
 }
+.img_photo{
+    position: relative;
+}
+
+.road{
+    position: absolute;
+    bottom: 12px;
+}
+
 
 .road_title{
     font-size: 27px;
@@ -293,12 +304,25 @@ span{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .span_div{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .span_phto{
     width: 30px;
+    margin-right: 5px;
+    
+    
+}
+
+.span_title{
+    font-size: 14px;
+    font-weight: 400;
+    color: #768088;
 }
