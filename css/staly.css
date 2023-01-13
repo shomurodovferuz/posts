@@ -24,6 +24,27 @@ body{
     .container{
         width: 1040px;
     }
+    .main_title{
+    
+        
+        font-size: 45px !important;
+        font-weight: 250 !important;
+        margin-top: 90px !important;
+    }
+
+    .main_text{
+    
+        font-size: 15px !important;
+        margin-top: 15px !important;
+        
+    }
+    .main_link{
+        margin-top: 13px !important;
+        padding: 10px 20px;
+        font-size: 7px !important;
+        margin-top: 18px !important;
+    
+    }
 }
 
 @media(max-width:1060px){
@@ -48,23 +69,91 @@ body{
     .container{
         width: 640px;
     }
+    .main_title{
+    
+        
+        font-size: 30px !important;
+        font-weight: 200 !important;
+        margin-top: 30px !important;
+    }
+
+    .main_text{
+    
+        font-size: 10px !important;
+        margin-top: 10px !important;
+        
+    }
+    .main_link{
+        margin-top: 10px !important;
+        padding: 7px 15px;
+        font-size: 6px !important;
+        margin-top: 15px !important;
+    
+    }
 }
 
 @media(max-width:660px){
     .container{
         width: 540px;
     }
+    .nav_title{
+        color: #FFFFFF;
+        font-size: 15px;
+    }
+
+    .nature_item .nature_link{
+        color: #768088;
+        font-size: 10px !important;
+    
+    }
+
 }
 
 @media(max-width:560px){
     .container{
         width: 440px;
     }
+
+    .main_title{
+    
+        
+        font-size: 10px !important;
+        font-weight: 150 !important;
+        margin-top: 20px !important;
+    }
+
+    .main_text{
+    
+        font-size: 8px !important;
+        margin-top: 7px !important;
+        
+    }
+    .main_link{
+        margin-top: 8px !important;
+        padding: 7px 15px;
+        font-size: 6px !important;
+        margin-top: 10px !important;
+    
+    }
+
+
+    .nav_list{
+        display: none !important;
+    }
+    .nav_title{
+        color: #FFFFFF;
+        font-size: 13px !important;
+        margin-right: auto !important;
+    }
+
 }
 
 @media(max-width:460px){
     .container{
         width: 340px;
+    }
+    .nature_list{
+        display: none !important;
     }
 }
 
@@ -72,12 +161,36 @@ body{
     .container{
         width: 100%;
     }
+    .main_title{
+    
+        
+        font-size: 15px !important;
+        font-weight: 150 !important;
+        margin-top: 5px !important;
+    }
+
+    .main_text{
+    
+        font-size: 8px !important;
+        margin-top: 7px !important;
+        
+    }
+    .main_link{
+        margin-top: 8px !important;
+        padding: 3px 7px !important;
+        font-size: 6px !important;
+        margin-top: 10px !important;
+        font-weight: 100 !important;
+    
+    }
+
 }
 header{
     background-image: url("../img/IMAGE\ \(65\).png");
     background-size: 100%;
     background-repeat: no-repeat;
-    padding: 20px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
 
@@ -103,4 +216,89 @@ header{
     color: #FFFFFF;
     font-size: 20px;
 }
+main .container{
+    text-align: center;
+}
 
+.main_title{
+    
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 300;
+    margin-top: 100px;
+}
+.main_text{
+    
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.63);
+    font-weight: 100;
+    margin-top: 25px;
+    
+}
+.main_link{
+    text-align: center;
+    margin-top: 15px;
+    background-color: #DD783F;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-size: 10px;
+    margin-top: 20px;
+
+}
+
+.nature{
+    background-color: #FFFFFF;
+}
+.nature_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+
+}
+.nature_item .nature_link{
+    color: #768088;
+    font-size: 20px;
+
+}
+.featured_title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 20px;
+
+}
+
+.featured_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.featured_item{
+    width: 45%;
+}
+
+.road_title{
+    font-size: 27px;
+    color: #FFFFFF;
+}
+
+.road_text{
+    font-size: 14px;
+    color: #768088;
+}
+span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.span_div{
+    display: flex;
+}
+
+.span_phto{
+    width: 30px;
+}
