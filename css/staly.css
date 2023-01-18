@@ -183,9 +183,8 @@ body {
     .container {
         width: 440px;
     }
-    .most_list{
-        display: flex;
-        flex-direction: column;
+    .most_item{
+        width: 45% !important;
     }
 
     .main_title {
@@ -269,6 +268,16 @@ body {
     .wong_photo {
         width: 10px !important;
     }
+    .featured_list{
+        padding: 0 !important;
+    }
+
+    .featured_item {
+        width: 100% !important;
+    
+    
+    }
+    
     
 
 }
@@ -291,6 +300,13 @@ body {
         font-size: 8px !important;
         margin-top: 7px !important;
 
+    }
+    .most{
+        padding: 0;
+    }
+
+    .most_item{
+        width: 100% !important;
     }
 
     .main_link {
@@ -484,6 +500,7 @@ span {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 0;
 }
 
 .most_item {
